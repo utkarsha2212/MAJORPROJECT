@@ -1,0 +1,43 @@
+#app {
+  max-width: 1280px;
+  margin: 30px 100px;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.calculation-section {
+  width: 300px;
+  padding: 0px 24px;
+  float: left;
+}
+
+.vehicle-type {
+  width: 300px;
+}
+
+.calculation-section .vehicle-type .form-label-select {
+  font-weight: bolder;
+  color: #1da1f2 !important;
+  letter-spacing: normal;
+  line-height: 1.2rem;
+  margin: 10px 0px;
+  font-size: 16px;
+}
