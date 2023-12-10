@@ -142,7 +142,7 @@ const LeafletMapContainerComponent = (props) => {
       center={[latitude, longitude]}
       zoom={6}
       ref={mapRef}
-      style={{ height: "500px", width: "540px" }}
+      style={{ height: "500px", width: "900px" }}
     >
       <TileLayer
         attribution="&copy; "
