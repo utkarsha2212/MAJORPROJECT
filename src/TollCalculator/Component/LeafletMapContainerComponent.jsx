@@ -21,6 +21,8 @@ const LeafletMapContainerComponent = (props) => {
     setLongitude,
     setSrcLocation,
     setDestLocation,
+    setSourceMetaInfo,
+    setDestinationMetaInfo,
     setFieldValue,
   } = props;
   const mapRef = useRef(null);
@@ -34,8 +36,6 @@ const LeafletMapContainerComponent = (props) => {
     navigator.geolocation.getCurrentPosition(function (position) {
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
-      console.log("Latitude is :", position.coords.latitude);
-      console.log("Longitude is :", position.coords.longitude);
     });
     if (mapRef.current) {
       mapRef.current.setView([latitude, longitude], 6);
@@ -72,8 +72,20 @@ const LeafletMapContainerComponent = (props) => {
           console.log(city, state, country);
           console.log(address);
           if (isEmptyOrNull(values.src_location)) {
+            setSourceMetaInfo({
+              uri: `${city},${state}`,
+              city: city,
+              state: state,
+              country: country,
+            });
             setFieldValue("src_location", address);
           } else {
+            setDestinationMetaInfo({
+              uri: `${city},${state}`,
+              city: city,
+              state: state,
+              country: country,
+            });
             setFieldValue("dest_location", address);
           }
         })
@@ -116,6 +128,12 @@ const LeafletMapContainerComponent = (props) => {
           <Popup>You are here</Popup>
         </Marker>
       );
+    } else if (isEmptyOrNull(srcLocation) && notEmptyOrNull(destLocation)) {
+      return (
+        <Marker position={destLocation}>
+          <Popup>You are here</Popup>
+        </Marker>
+      );
     }
   }
   return (
@@ -124,10 +142,10 @@ const LeafletMapContainerComponent = (props) => {
       center={[latitude, longitude]}
       zoom={6}
       ref={mapRef}
-      style={{ height: "500px", width: "400px" }}
+      style={{ height: "500px", width: "540px" }}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution="&copy; "
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {/* Additional map layers or components can be added here */}

@@ -1,0 +1,27 @@
+.calicon {
+  background: url("../assets/calender.svg") no-repeat;
+  background-color: #fff;
+  background-position: 95%;
+  background-size: 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 268px;
+  height: 24px;
+  padding: calc(0.5rem - 1px) calc(1rem - 1px);
+}
+.adjutmentdiv {
+  float: left;
+}
+
+.react-datepicker__tab-loop .react-datepicker-popper {
+  position: absolute !important;
+  inset: 0px auto auto 0px !important;
+  transform: translate3d(95.242px, 386.061px, 0px) !important;
+}
+
+.react-datepicker_tab-loop
+  .react-datepicker-popper
+  .react-datepicker_header--time {
+  padding-top: 20.5px !important;
+  padding-bottom: 20px !important;
+}

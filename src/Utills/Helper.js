@@ -1,3 +1,8 @@
+import moment from "moment";
+import "moment/locale/en-gb";
+
+moment().locale("en");
+
 /**
  * @isEmptyOrNull check for empty or null
  * @param {*} element
@@ -15,7 +20,6 @@ export function isEmptyOrNull(element) {
   }
   return false;
 }
-
 /**
  * @notEmptyOrNull check for empty or null
  * @param {*} element
@@ -32,4 +36,15 @@ export function notEmptyOrNull(element) {
     return true;
   }
   return false;
+}
+/**
+ * @GetDate return date in Default format
+ * @param {*} value
+ * @returns
+ */
+export function GetDate(value) {
+  if (value) {
+    return moment(value).format();
+  }
+  return "";
 }

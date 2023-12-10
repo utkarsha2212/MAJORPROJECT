@@ -2,11 +2,11 @@
 
 /*Default Button Red */
 
-.lilly-default-btn {
-  background-color: #d52b1e;
-  border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 4px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+.default-btn {
+  background-color: #1da1f2 !important;
+  border: #0072a3;
+  border-radius: 0.15rem;
+  box-shadow: 0 0px 0px #0072a3;
   font-family: "Montserrat" !important;
   color: #fff;
   display: inline-block;
@@ -17,98 +17,50 @@
   padding: calc(0.5rem - 3px) calc(1.5rem - 2px) calc(0.5rem - 1px);
   transition: background-color 0.25s ease, color 0.25s ease;
 }
-.lilly-default-btn:hover {
-  background-color: #af261b;
-  z-index: 1;
+.default-btn:hover {
+  background-color: #00567a;
+  background-color: var(--clr-btn-primary-hover-bg-color, #00567a);
+  color: #e3f5fc;
 }
-.lilly-default-btn:active {
-  background-color: #8a1f17 !important;
+.default-btn:active {
+  box-shadow: 0 0.1rem #179bd3 inset;
+  box-shadow: 0 0.1rem 0 0 var(--clr-btn-primary-box-shadow-color, #179bd3)
+    inset;
 }
-.lilly-default-btn:focus {
-  box-shadow: 0 0 0 3px rgba(33, 33, 33, 0.6);
-  outline: 3px solid rgba(0, 0, 0, 0);
+.default-btn:focus {
+  box-shadow: 0 0.1rem #179bd3 inset;
+  box-shadow: 0 0.1rem 0 0 var(--clr-btn-primary-box-shadow-color, #179bd3)
+    inset;
   text-decoration: none;
   z-index: 2;
 }
 
 /* Default Button With Red Outline */
 
-.lilly-default-btn.secondary {
+.default-btn.secondary {
   background-color: rgba(0, 0, 0, 0);
   border-color: #d52b1e;
   box-shadow: none;
   color: #d52b1e;
 }
-.lilly-default-btn.secondary:hover {
+.default-btn.secondary:hover {
   background-color: #fbeae9;
   color: #d52b1e;
 }
-.lilly-default-btn.secondary:active {
+.default-btn.secondary:active {
   background-color: rgba(0, 0, 0, 0) !important;
   border-color: #8a1f17 !important;
   color: #8a1f17 !important;
 }
-.lilly-default-btn.secondary:focus {
+.default-btn.secondary:focus {
   background-color: rgba(0, 0, 0, 0);
   border-color: #d52b1e;
   box-shadow: 0 0 0 3px rgba(33, 33, 33, 0.6);
   color: #d52b1e;
   outline: 3px solid rgba(0, 0, 0, 0);
 }
-* CSS Styling For Buttons */
-
-/*Default Button Red */
-
-.lilly-default-btn {
-  background-color: #d52b1e;
-  border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 4px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  font-family: "Montserrat" !important;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  text-align: center;
-  padding: calc(0.5rem - 3px) calc(1.5rem - 2px) calc(0.5rem - 1px);
-  transition: background-color 0.25s ease, color 0.25s ease;
-}
-.lilly-default-btn:hover {
-  background-color: #af261b;
-  z-index: 1;
-}
-.lilly-default-btn:active {
-  background-color: #8a1f17 !important;
-}
-.lilly-default-btn:focus {
-  box-shadow: 0 0 0 3px rgba(33, 33, 33, 0.6);
-  outline: 3px solid rgba(0, 0, 0, 0);
-  text-decoration: none;
-  z-index: 2;
-}
-
-/* Default Button With Red Outline */
-
-.lilly-default-btn.secondary {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #d52b1e;
-  box-shadow: none;
-  color: #d52b1e;
-}
-.lilly-default-btn.secondary:hover {
-  background-color: #fbeae9;
-  color: #d52b1e;
-}
-.lilly-default-btn.secondary:active {
-  background-color: rgba(0, 0, 0, 0) !important;
-  border-color: #8a1f17 !important;
-  color: #8a1f17 !important;
-}
-.lilly-default-btn.secondary:focus {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #d52b1e;
-  box-shadow: 0 0 0 3px rgba(33, 33, 33, 0.6);
-  color: #d52b1e;
-  outline: 3px solid rgba(0, 0, 0, 0);
+.default-btn svg {
+  fill: currentColor;
+  margin-right: 11.5px;
+  vertical-align: -5%;
 }

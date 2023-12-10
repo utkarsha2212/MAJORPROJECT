@@ -24,7 +24,7 @@
 }
 
 .calculation-section {
-  width: 300px;
+  width: 298.22px;
   padding: 0px 24px;
   float: left;
 }
@@ -34,6 +34,56 @@
 }
 
 .calculation-section .vehicle-type .form-label-select {
+  font-weight: bolder;
+  color: #1da1f2 !important;
+  letter-spacing: normal;
+  line-height: 1.2rem;
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.form-label,
+.form-label-select {
+  text-align: left;
+  color: #212121;
+  display: block;
+  font-family: "Montserrat" !important;
+  font-size: 14px;
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-bottom: 0 !important;
+}
+.calculation-section .submit-btn-container {
+  display: -webkit-inline-box;
+  margin: 20px 0px;
+  width: 100%;
+}
+.calculation-section .submit-btn-container .default-btn {
+  width: 298.22px;
+}
+.calculation-section .swap-btn-container {
+  margin-top: -28px;
+  position: relative;
+  width: fit-content;
+  top: 12px;
+  left: 284px;
+}
+.calculation-section .swap-btn-container .default-btn {
+  padding: 2px 6px;
+}
+.calculation-section .swap-btn-container .default-btn svg {
+  transform: rotate(270deg);
+  margin-right: 0px;
+}
+
+.calculation-section .source-location-container,
+.calculation-section .destination-location-container {
+  width: 100%;
+}
+
+.calculation-section .departure-time-container .form-label {
   font-weight: bolder;
   color: #1da1f2 !important;
   letter-spacing: normal;

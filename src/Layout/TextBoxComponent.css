@@ -1,6 +1,6 @@
 /* CSS Styling for Lilly Text Box */
 
-.lilly-formcontrol-textbox {
+.formcontrol-textbox {
   display: block !important;
   width: 100% !important;
   font-size: 16px !important;
@@ -18,9 +18,9 @@
   padding: calc(0.5rem - 1px) calc(1rem - 1px);
 }
 
-.lilly-form-control-textarea.error,
-.lilly-formcontrol-textbox.error,
-.lilly-formcontrol-textbox-withSideText.error,
+.form-control-textarea.error,
+.formcontrol-textbox.error,
+.formcontrol-textbox-withSideText.error,
 .text-area-custom-margin-large.error,
 .text-area-custom-margin-large-expand.error,
 .checkbox-contaier
@@ -42,8 +42,8 @@
   border-color: #ef4a5f !important;
 }
 
-.lilly-formcontrol-textbox.error,
-.lilly-formcontrol-textbox-withSideText.error {
+.formcontrol-textbox.error,
+.formcontrol-textbox-withSideText.error {
   font: 400 0.875rem/1.5rem Roboto, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: 500;
@@ -51,7 +51,7 @@
   border-color: #ef4a5f;
 } /* CSS Styling for Lilly Text Box */
 
-.lilly-formcontrol-textbox {
+.formcontrol-textbox {
   display: block !important;
   width: 100% !important;
   font-size: 16px !important;
@@ -69,9 +69,9 @@
   padding: calc(0.5rem - 1px) calc(1rem - 1px);
 }
 
-.lilly-form-control-textarea.error,
-.lilly-formcontrol-textbox.error,
-.lilly-formcontrol-textbox-withSideText.error,
+.form-control-textarea.error,
+.formcontrol-textbox.error,
+.formcontrol-textbox-withSideText.error,
 .text-area-custom-margin-large.error,
 .text-area-custom-margin-large-expand.error,
 .checkbox-contaier
@@ -93,8 +93,8 @@
   border-color: #ef4a5f !important;
 }
 
-.lilly-formcontrol-textbox.error,
-.lilly-formcontrol-textbox-withSideText.error {
+.formcontrol-textbox.error,
+.formcontrol-textbox-withSideText.error {
   font: 400 0.875rem/1.5rem Roboto, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: 500;
