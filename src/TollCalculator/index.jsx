@@ -85,7 +85,7 @@ const TollCalculator = () => {
           src_location: "",
           dest_location: "",
           vehicleType: "",
-          dprtr_tm: null,
+          dprtr_tm: Date.now(),
           mapProvider: Constants.MAP_PROVIDER_INITIAL_VALUES,
           units: Constants.UNITS_INITIAL_VALUES,
           fuelOptions: Constants.FUEL_OPTIONS_INITIAL_VALUES,
@@ -125,7 +125,8 @@ const TollCalculator = () => {
               <div className="swap-btn-container">
                 <ButtonComponent
                   onClickButton={() => {
-                    console.log("clicked");
+                    setFieldValue("src_location", values.dest_location);
+                    setFieldValue("dest_location", values.src_location);
                   }}
                   icon={<SwapIcon />}
                 />
