@@ -62,7 +62,7 @@
 // };
 
 
-const Listing = require("./models/listing");
+const Listing = require("./models/listing.js");
 const Review = require("./models/review");
 const { listingSchema, reviewSchema } = require("./schema.js"); // ✅ fixed
 const ExpressError = require("./utils/ExpressError");
