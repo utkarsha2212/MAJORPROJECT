@@ -1,8 +1,18 @@
+# 🌍 WanderLust 🏡
 
-### 🌍 WanderLust Project 🏡
+![Project Logo](logo.png) <!-- Optional: add your logo here -->
 
-#### Project Summary
-**WanderLust** is a comprehensive Full Stack Web Development project designed to facilitate the browsing and booking of vacation accommodations, including houses, villas, and farmhouses. This platform allows users to add their own properties to the listing, providing a diverse range of options for potential renters. Key features include a seamless booking system that simplifies the reservation process and real-time property location views via Mapbox API. To enhance user experience and security, the application supports fast login options through Google OAuth and GitHub OAuth. The application also boasts a dynamic server for responsive performance and an intuitive, aesthetically pleasing user interface, ensuring an engaging and efficient user experience.
+## Project Summary
+WanderLust is a full-stack web application designed to simplify the browsing and booking of vacation accommodations, including houses, villas, and farmhouses. Users can explore available properties or add their own listings, offering a wide variety of options for renters.
+
+Key features include:  
+- **Seamless Booking System:** Effortless reservation process for users.  
+- **Interactive Property Maps:** Real-time location views powered by the Mapbox API.  
+- **Secure Fast Login:** Authentication via Google OAuth and GitHub OAuth for convenience and security.  
+- **Responsive Performance:** Dynamic server architecture ensures smooth and efficient interactions.  
+- **User-Friendly Interface:** Intuitive and aesthetically pleasing design for an engaging user experience.  
+
+WanderLust combines robust functionality with an elegant UI, creating a reliable platform for both property owners and vacationers.
 
 #### Front-end 🌐
 - **Technologies Used**: HTML, CSS, JavaScript, Bootstrap, EJS
