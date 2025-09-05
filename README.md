@@ -1,6 +1,7 @@
 # 🌍 WanderLust 🏡
 
-![https://majorproject-cq5o.onrender.com/listings](web-icon.png) <!-- Optional: add your logo here -->
+![Project Logo](./public/images/web-icon.png)
+
 
 ## Project Summary
 WanderLust is a full-stack web application designed to simplify the browsing and booking of vacation accommodations, including houses, villas, and farmhouses. Users can explore available properties or add their own listings, offering a wide variety of options for renters.
