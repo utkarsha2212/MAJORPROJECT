@@ -43,7 +43,7 @@
 #### Deployment 🚀
 The WanderLust project has been deployed using Render, connected with MongoDB Atlas for database management.
 
-- **Live Application**: [WanderLust Project]
+- **Live Application**: https://majorproject-cq5o.onrender.com/listings
 
 #### Authors ✍️
 - **@RAHUL-SAH-KUMAR**
